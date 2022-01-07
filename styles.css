@@ -99,12 +99,11 @@ body {
 }
 
 .form-msg {
-    font-size: 0.75rem;
+    font-size: 0.625rem;
     font-style: italic;
-    position: absolute;
-    top: 100%;
-    left: 3rem;
-    margin-top: 0.4375rem;
+    margin-top: -0.25rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
     color: var(--light-red);
 }
 
@@ -251,6 +250,14 @@ body {
         width: 420px;
         height: 56px;
         margin-right: 1rem;
+    }
+
+    .form-msg {
+        position: absolute;
+        top: 100%;
+        left: 3rem;
+        margin-top: 0.4375rem;
+        margin-bottom: 0;
     }
 
     .btn {
